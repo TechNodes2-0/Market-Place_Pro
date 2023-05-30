@@ -17,6 +17,6 @@ jobs:
             Thank you for raising your pull request.
             Please make sure you have followed our contributing guidelines. We will review it as soon as possible
 
-          issuesClose: |
+          issuesClosed: |
             👋 @{{ author }}
-            YOur Isuue IS Solve Thank You FOr YOur COntribution LEts Geeks Out .😎
+            Your issue has been resolved. Thank you for your contribution. Let's geek out. 😎
