@@ -1,5 +1,5 @@
 name: Auto Comment
-on: [issues, pull_request]
+on: [issues, pull_request, issues_assigned]
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -20,3 +20,7 @@ jobs:
           issuesClosed: |
             👋 @{{ author }}
             Your issue has been resolved. Thank you for your contribution. Let's geek out. 😎
+
+          issuesAssigned: |
+            👋 @{{ assignee }}
+            This issue has been assigned to you. You can now start working on it.
